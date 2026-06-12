@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Last War Mini</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #14161c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: 'Segoe UI', 'Apple SD Gothic Neo', sans-serif;
+    }
+    #game {
+      background: #2a2d36;
+      touch-action: none;
+      border-radius: 8px;
+      box-shadow: 0 0 40px rgba(0,0,0,.6);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="480" height="720"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
